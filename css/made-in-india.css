@@ -4,3 +4,21 @@
   --green: #49890e;
   --white: #ffffff;
 }
+
+.india-linear {
+  background: linear-gradient(
+    to bottom,
+    var(--orange),
+    var(--white),
+    var(--green)
+  );
+}
+
+.india-linear-slant {
+  background: linear-gradient(
+    135deg,
+    var(--orange),
+    var(--white),
+    var(--green)
+  );
+}
