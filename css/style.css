@@ -18,6 +18,11 @@ body {
   color: var(--black);
 }
 
+code {
+  color: var(--blue);
+  font-weight: bold;
+}
+
 section {
   height: 100vh;
 }
@@ -71,4 +76,26 @@ section {
   #introduction .wrapper .card {
     width: 90%;
   }
+}
+
+/* Patterns */
+
+#patterns .wrapper {
+  height: inherit;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: calc(var(--spacing) * 2);
+}
+
+#patterns .wrapper .card {
+  width: 50%;
+  margin-top: calc(var(--spacing) * 2);
+}
+
+#patterns .wrapper .card .pattern-container {
+  height: 200px;
+  border-radius: var(--spacing);
+  margin-top: calc(var(--spacing) * 2);
 }
