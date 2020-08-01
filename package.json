@@ -1,0 +1,19 @@
+{
+  "name": "made-in-india-css",
+  "version": "1.0.0",
+  "description": "Gradients background patterns",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Gradients",
+    "Backgrounds",
+    "CSS",
+    "Made",
+    "In",
+    "India"
+  ],
+  "author": "Nishant Painter",
+  "license": "MIT"
+}
