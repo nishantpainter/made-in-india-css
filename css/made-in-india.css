@@ -26,3 +26,15 @@
   );
   background-size: 40px 40px;
 }
+
+.india-spiral {
+  background: repeating-radial-gradient(
+    circle,
+    var(--orange) 0px 10px,
+    var(--white) 10px 13px,
+    var(--blue) 13px 16px,
+    var(--white) 16px 20px,
+    var(--green) 20px 30px,
+    var(--white) 30px 40px
+  );
+}
