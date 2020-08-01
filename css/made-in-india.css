@@ -14,11 +14,15 @@
   );
 }
 
-.india-linear-slant {
+.india-stripe {
   background: linear-gradient(
-    135deg,
-    var(--orange),
-    var(--white),
-    var(--green)
+    to bottom,
+    var(--orange) 0px 10px,
+    var(--white) 10px 13px,
+    var(--blue) 13px 16px,
+    var(--white) 16px 20px,
+    var(--green) 20px 30px,
+    var(--white) 30px 40px
   );
+  background-size: 40px 40px;
 }

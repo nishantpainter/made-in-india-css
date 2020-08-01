@@ -96,6 +96,5 @@ section {
 
 #patterns .wrapper .card .pattern-container {
   height: 200px;
-  border-radius: var(--spacing);
   margin-top: calc(var(--spacing) * 2);
 }
