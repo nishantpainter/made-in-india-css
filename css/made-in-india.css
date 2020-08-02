@@ -43,16 +43,16 @@
   background: linear-gradient(
       to right,
       transparent 0px 20px,
-      white 20px 40px,
+      var(--white) 20px 40px,
       transparent 40px 60px,
-      white 60px 80px
+      var(--white) 60px 80px
     ),
     linear-gradient(
       to bottom,
-      orange 0px 20px,
-      white 20px 40px,
-      green 40px 60px,
-      white 60px 80px
+      var(--orange) 0px 20px,
+      var(--white) 20px 40px,
+      var(--green) 40px 60px,
+      var(--white) 60px 80px
     );
   background-size: 80px 80px;
 }
