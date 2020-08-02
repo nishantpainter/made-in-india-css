@@ -38,3 +38,21 @@
     var(--white) 30px 40px
   );
 }
+
+.india-block {
+  background: linear-gradient(
+      to right,
+      transparent 0px 20px,
+      white 20px 40px,
+      transparent 40px 60px,
+      white 60px 80px
+    ),
+    linear-gradient(
+      to bottom,
+      orange 0px 20px,
+      white 20px 40px,
+      green 40px 60px,
+      white 60px 80px
+    );
+  background-size: 80px 80px;
+}
