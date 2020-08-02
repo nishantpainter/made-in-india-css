@@ -56,3 +56,48 @@
     );
   background-size: 80px 80px;
 }
+
+.india-diamond {
+  background: linear-gradient(
+      45deg,
+      transparent 10px,
+      var(--green) 10px 20px,
+      var(--white) 20px 25px,
+      var(--blue) 25px 30px,
+      var(--white) 30px 35px,
+      var(--orange) 35px 45px,
+      transparent 44px
+    ),
+    linear-gradient(
+      -45deg,
+      transparent 10px,
+      var(--green) 10px 20px,
+      var(--white) 20px 25px,
+      var(--blue) 25px 30px,
+      var(--white) 30px 35px,
+      var(--orange) 35px 45px,
+      transparent 44px
+    ),
+    linear-gradient(
+      -135deg,
+      transparent 10px,
+      var(--green) 10px 20px,
+      var(--white) 20px 25px,
+      var(--blue) 25px 30px,
+      var(--white) 30px 35px,
+      var(--orange) 35px 45px,
+      transparent 44px
+    ),
+    linear-gradient(
+      135deg,
+      transparent 10px,
+      var(--green) 10px 20px,
+      var(--white) 20px 25px,
+      var(--blue) 25px 30px,
+      var(--white) 30px 35px,
+      var(--orange) 35px 45px,
+      transparent 44px
+    );
+  background-size: 130px 130px;
+  background-position: 50% 50%;
+}
