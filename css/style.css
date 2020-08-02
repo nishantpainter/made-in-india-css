@@ -91,6 +91,7 @@ section {
 
 #patterns .wrapper .card {
   width: 50%;
+  max-width: 400px;
   margin-top: calc(var(--spacing) * 2);
 }
 
