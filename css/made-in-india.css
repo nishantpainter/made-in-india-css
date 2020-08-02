@@ -40,21 +40,30 @@
 }
 
 .india-block {
-  background: linear-gradient(
-      to right,
-      transparent 0px 20px,
-      var(--white) 20px 40px,
-      transparent 40px 60px,
-      var(--white) 60px 80px
+  background: radial-gradient(
+      5px 5px at 61% 61%,
+      var(--white) 50%,
+      transparent 50%
     ),
+    radial-gradient(5px 5px at 10% 10%, var(--white) 50%, transparent 50%), 
+    radial-gradient(5px 5px at 36% 36%, var(--white) 50%, transparent 50%),
+    radial-gradient(5px 5px at 36% 36%, var(--blue) 50%, transparent 50%),
+    radial-gradient(5px 5px at 88% 88%, var(--blue) 50%, transparent 50%),
     linear-gradient(
       to bottom,
-      var(--orange) 0px 20px,
-      var(--white) 20px 40px,
-      var(--green) 40px 60px,
-      var(--white) 60px 80px
+      var(--orange) 10px,
+      transparent 10px 20px,
+      var(--green) 20px 30px,
+      transparent 30px
+    ),
+    linear-gradient(
+      to right,
+      var(--orange) 10px,
+      transparent 10px 20px,
+      var(--green) 20px 30px,
+      transparent 30px
     );
-  background-size: 80px 80px;
+  background-size: 40px 40px;
 }
 
 .india-diamond {
