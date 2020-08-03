@@ -51,6 +51,7 @@ section {
 
 #introduction .wrapper .card {
   width: 50%;
+  max-width: 500px;
 }
 
 #introduction .wrapper .title {
