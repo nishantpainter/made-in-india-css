@@ -45,7 +45,7 @@
       var(--white) 50%,
       transparent 50%
     ),
-    radial-gradient(5px 5px at 10% 10%, var(--white) 50%, transparent 50%), 
+    radial-gradient(5px 5px at 10% 10%, var(--white) 50%, transparent 50%),
     radial-gradient(5px 5px at 36% 36%, var(--white) 50%, transparent 50%),
     radial-gradient(5px 5px at 36% 36%, var(--blue) 50%, transparent 50%),
     radial-gradient(5px 5px at 88% 88%, var(--blue) 50%, transparent 50%),
@@ -109,4 +109,19 @@
     );
   background-size: 130px 130px;
   background-position: 50% 50%;
+}
+
+.india-ring {
+  background: radial-gradient(
+    circle at center,
+    var(--white) 30%,
+    var(--green) 30% 40%,
+    var(--white) 40% 50%,
+    var(--blue) 50% 55%,
+    var(--white) 55% 60%,
+    var(--orange) 60% 70%,
+    transparent 70%
+  );
+  background-position: 50% 50%;
+  background-size: 80px 80px;
 }
