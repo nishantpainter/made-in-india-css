@@ -58,6 +58,13 @@ section {
   font-size: 1.5rem;
 }
 
+#introduction .wrapper .subtitle {
+  letter-spacing: 0.0475rem;
+  word-spacing: 0.1rem;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
 #introduction .wrapper .download-button {
   display: block;
   color: var(--blue);
