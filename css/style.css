@@ -27,6 +27,15 @@ section {
   height: 100vh;
 }
 
+a {
+  color: var(--black);
+}
+
+a:hover {
+  color: var(--black);
+  text-decoration: none;
+}
+
 .card {
   cursor: pointer;
   padding: calc(var(--spacing) * 2);
@@ -37,6 +46,54 @@ section {
 
 .rounded {
   border-radius: var(--spacing);
+}
+
+/* Header */
+header .navigator {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 12px;
+  background-color: var(--white);
+  box-shadow: 0 8px 40px -12px rgba(0, 0, 0, 0.3);
+}
+
+header nav {
+  display: block;
+  width: 100%;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-color: var(--white);
+  justify-content: flex-end;
+}
+
+header nav li {
+  text-decoration: none;
+  position: relative;
+  white-space: nowrap;
+  padding: 12px;
+  display: list-item;
+}
+
+header nav li a {
+  text-decoration: none;
+  transition: 0.3s;
+  font-weight: bold;
+  font-size: 1.025rem;
+}
+
+.navigator a:hover,
+.navigator .active > a,
+.navigator li:hover > a {
+  color: var(--orange);
 }
 
 /* Introduction */
