@@ -56,6 +56,10 @@ header .navigator {
   display: flex;
   align-items: center;
   padding: 12px;
+  transition: 0.5s;
+}
+
+.navigator-scrolled {
   background-color: var(--white);
   box-shadow: 0 8px 40px -12px rgba(0, 0, 0, 0.3);
 }
@@ -71,7 +75,6 @@ header nav ul {
   margin: 0px;
   padding: 0px;
   width: 100%;
-  background-color: var(--white);
   justify-content: flex-end;
 }
 
@@ -93,6 +96,12 @@ header nav li a {
 .navigator a:hover,
 .navigator .active > a,
 .navigator li:hover > a {
+  color: var(--white);
+}
+
+.navigator-scrolled a:hover,
+.navigator-scrolled .active > a,
+.navigator-scrolled li:hover > a {
   color: var(--orange);
 }
 
