@@ -152,3 +152,30 @@
       40px 65px;
   background-size: 40px 80px;
 }
+
+.india-cup {
+  background: radial-gradient(
+      circle at 50% 100%,
+      transparent 25%,
+      var(--green) 25% 35%,
+      transparent 35%,
+      transparent
+    ),
+    radial-gradient(
+        circle at 50% 100%,
+        transparent 25%,
+        var(--blue) 25% 30%,
+        transparent 30%,
+        transparent
+      )
+      40px 60px,
+    radial-gradient(
+        circle at 50% 100%,
+        transparent 25%,
+        var(--orange) 25% 35%,
+        transparent 35%,
+        transparent
+      )
+      0px 40px;
+  background-size: 80px 80px;
+}
