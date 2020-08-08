@@ -218,3 +218,97 @@
   );
   background-size: 80px 80px;
 }
+
+.india-square {
+  background: linear-gradient(
+      to right,
+      transparent 0px 5px,
+      var(--orange-alpha-50) 5px 10px,
+      var(--orange) 10px 15px,
+      transparent 15px
+    ),
+    linear-gradient(
+      to left,
+      transparent 0px 5px,
+      var(--orange-alpha-50) 5px 10px,
+      var(--orange) 10px 15px,
+      transparent 15px
+    ),
+    linear-gradient(
+      to bottom,
+      transparent 0px 5px,
+      var(--orange-alpha-50) 5px 10px,
+      var(--orange) 10px 15px,
+      transparent 15px
+    ),
+    linear-gradient(
+      to top,
+      transparent 0px 5px,
+      var(--orange-alpha-50) 5px 10px,
+      var(--orange) 10px 15px,
+      transparent 15px
+    ),
+    linear-gradient(
+        to right,
+        transparent 0px 5px,
+        var(--blue-alpha-50) 5px 10px,
+        var(--blue) 10px 15px,
+        transparent 15px
+      )
+      15px,
+    linear-gradient(
+        to left,
+        transparent 0px 5px,
+        var(--blue-alpha-50) 5px 10px,
+        var(--blue) 10px 15px,
+        transparent 15px
+      ) -15px,
+    linear-gradient(
+        to top,
+        transparent 0px 5px,
+        var(--blue-alpha-50) 5px 10px,
+        var(--blue) 10px 15px,
+        transparent 15px
+      )
+      0px -15px,
+    linear-gradient(
+        to bottom,
+        transparent 0px 5px,
+        var(--blue-alpha-50) 5px 10px,
+        var(--blue) 10px 15px,
+        transparent 15px
+      )
+      0px 15px,
+    linear-gradient(
+        to right,
+        transparent 0px 5px,
+        var(--green-alpha-50) 5px 10px,
+        var(--green) 10px 15px,
+        transparent 15px
+      )
+      30px,
+    linear-gradient(
+        to left,
+        transparent 0px 5px,
+        var(--green-alpha-50) 5px 10px,
+        var(--green) 10px 15px,
+        transparent 15px
+      ) -30px,
+    linear-gradient(
+        to top,
+        transparent 0px 5px,
+        var(--green-alpha-50) 5px 10px,
+        var(--green) 10px 15px,
+        transparent 15px
+      )
+      0px -30px,
+    linear-gradient(
+        to bottom,
+        transparent 0px 5px,
+        var(--green-alpha-50) 5px 10px,
+        var(--green) 10px 15px,
+        transparent 15px
+      )
+      0px 30px;
+  background-size: 120px 120px;
+}
