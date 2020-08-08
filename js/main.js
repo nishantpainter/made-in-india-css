@@ -1,6 +1,18 @@
 !(function ($) {
   "use strict";
 
+  // loader
+  $(window).on("load", function () {
+    if ($("#loader").length) {
+      $("#loader")
+        .delay(200)
+        .fadeOut("slow", function () {
+          $(this).remove();
+        });
+    }
+  });
+
+  // header scrolling effect
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
       $("#navigator").addClass("navigator-scrolled");
@@ -13,7 +25,7 @@
     $("#navigator").addClass("navigator-scrolled");
   }
 
-  // Back to top button
+  // back to top
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
       $(".back-to-top").fadeIn("slow");
