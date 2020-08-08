@@ -312,3 +312,31 @@
       0px 30px;
   background-size: 120px 120px;
 }
+
+.india-cut {
+  background: linear-gradient(
+      45deg,
+      transparent 0px 20px,
+      var(--orange) 20px 30px,
+      transparent 30px
+    ),
+    linear-gradient(
+      -45deg,
+      transparent 0px 20px,
+      var(--green) 20px 30px,
+      transparent 30px
+    ),
+    linear-gradient(
+      -45deg,
+      transparent 0px 35px,
+      var(--blue) 35px 40px,
+      transparent 40px
+    ),
+    linear-gradient(
+      45deg,
+      transparent 0px 35px,
+      var(--blue) 35px 40px,
+      transparent 40px
+    );
+  background-size: 60px 60px;
+}
