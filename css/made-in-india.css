@@ -3,6 +3,9 @@
   --blue: #173187;
   --green: #49890e;
   --white: #ffffff;
+  --orange-alpha-50: rgba(240, 151, 50, 0.5);
+  --blue-alpha-50: rgba(23, 49, 135, 0.5);
+  --green-alpha-50: rgba(73, 137, 14, 0.5);
 }
 
 .india-linear {
@@ -178,4 +181,23 @@
       )
       0px 40px;
   background-size: 80px 80px;
+}
+
+.india-line {
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0px 5px,
+    var(--orange-alpha-50) 5px 10px,
+    var(--orange) 10px 15px,
+    var(--orange-alpha-50) 15px 20px,
+    transparent 20px 25px,
+    var(--blue-alpha-50) 25px 30px,
+    var(--blue) 30px 35px,
+    var(--blue-alpha-50) 35px 40px,
+    transparent 40px 45px,
+    var(--green-alpha-50) 45px 50px,
+    var(--green) 50px 55px,
+    var(--green-alpha-50) 55px 60px,
+    transparent 60px 65px
+  );
 }
