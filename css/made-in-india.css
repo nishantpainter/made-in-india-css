@@ -340,3 +340,106 @@
     );
   background-size: 60px 60px;
 }
+
+.india-flag {
+  background: linear-gradient(
+      to bottom,
+      var(--orange) 0px 33.33%,
+      transparent 33.33% 66.66%,
+      var(--green) 66.66% 99.99%,
+      transparent 99.99%
+    ),
+    radial-gradient(
+      circle at center,
+      transparent 0% 13%,
+      var(--blue) 13% 15%,
+      transparent 15%
+    ),
+    linear-gradient(
+        0deg,
+        transparent 0% 47.5%,
+        var(--blue) 47.5% 52.5%,
+        transparent 52.5%
+      )
+      50% 50% / 16% 18%,
+    linear-gradient(
+        15deg,
+        transparent 0% 47.5%,
+        var(--blue) 47.5% 52.5%,
+        transparent 52.5%
+      )
+      50% 50% / 15% 16%,
+    linear-gradient(
+        30deg,
+        transparent 0% 47.5%,
+        var(--blue) 47.5% 52.5%,
+        transparent 52.5%
+      )
+      50% 50% / 15% 18%,
+    linear-gradient(
+        45deg,
+        transparent 0% 47.5%,
+        var(--blue) 47.5% 52.5%,
+        transparent 52.5%
+      )
+      50% 50% / 15% 18%,
+    linear-gradient(
+        60deg,
+        transparent 0% 47.5%,
+        var(--blue) 47.5% 52.5%,
+        transparent 52.5%
+      )
+      50% 50% / 15% 22%,
+    linear-gradient(
+        75deg,
+        transparent 0% 47.5%,
+        var(--blue) 47.5% 52.5%,
+        transparent 52.5%
+      )
+      50% 50% / 15% 24%,
+    linear-gradient(
+        90deg,
+        transparent 0% 47.5%,
+        var(--blue) 47.5% 52.5%,
+        transparent 52.5%
+      )
+      50% 50% / 15% 26%,
+    linear-gradient(
+        105deg,
+        transparent 0% 47.5%,
+        var(--blue) 47.5% 52.5%,
+        transparent 52.5%
+      )
+      50% 50% / 15% 24%,
+    linear-gradient(
+        120deg,
+        transparent 0% 47.5%,
+        var(--blue) 47.5% 52.5%,
+        transparent 52.5%
+      )
+      50% 50% / 15% 22%,
+    linear-gradient(
+        135deg,
+        transparent 0% 47.5%,
+        var(--blue) 47.5% 52.5%,
+        transparent 52.5%
+      )
+      50% 50% / 15% 18%,
+    linear-gradient(
+        150deg,
+        transparent 0% 47.5%,
+        var(--blue) 47.5% 52.5%,
+        transparent 52.5%
+      )
+      50% 50% / 15% 18%,
+    linear-gradient(
+        165deg,
+        transparent 0% 47.5%,
+        var(--blue) 47.5% 52.5%,
+        transparent 52.5%
+      )
+      50% 50% / 15% 16%;
+  width: 240px;
+  height: 150px;
+  background-repeat: no-repeat;
+}
