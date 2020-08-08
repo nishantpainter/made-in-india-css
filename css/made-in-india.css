@@ -201,3 +201,20 @@
     transparent 60px 65px
   );
 }
+
+.india-bubble {
+  background: radial-gradient(
+    circle,
+    transparent 0px 5px,
+    var(--orange-alpha-50) 5px 10px,
+    var(--orange) 10px 15px,
+    transparent 15px 25px,
+    var(--blue-alpha-50) 25px 30px,
+    var(--blue) 30px 35px,
+    transparent 35px 45px,
+    var(--green-alpha-50) 45px 50px,
+    var(--green) 50px 55px,
+    transparent 50px 65px
+  );
+  background-size: 80px 80px;
+}
