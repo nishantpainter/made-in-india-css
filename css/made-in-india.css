@@ -396,3 +396,103 @@
       transparent 56px 76px
     );
 }
+
+.india-flower {
+  background: radial-gradient(
+      60% 60% at 40% 40%,
+      transparent 0% 10%,
+      var(--orange) 10% 12%,
+      transparent 12%
+    ),
+    radial-gradient(
+      60% 60% at 50% 30%,
+      transparent 0% 10%,
+      var(--orange) 10% 12%,
+      transparent 12%
+    ),
+    radial-gradient(
+      60% 60% at 30% 50%,
+      transparent 0% 10%,
+      var(--orange) 10% 12%,
+      transparent 12%
+    ),
+    radial-gradient(
+      60% 60% at 60% 40%,
+      transparent 0% 10%,
+      var(--orange) 10% 12%,
+      transparent 12%
+    ),
+    radial-gradient(
+      60% 60% at 70% 50%,
+      transparent 0% 10%,
+      var(--orange) 10% 12%,
+      transparent 12%
+    ),
+    radial-gradient(
+      60% 60% at 60% 60%,
+      transparent 0% 10%,
+      var(--orange) 10% 12%,
+      transparent 12%
+    ),
+    radial-gradient(
+      60% 60% at 50% 70%,
+      transparent 0% 10%,
+      var(--orange) 10% 12%,
+      transparent 12%
+    ),
+    radial-gradient(
+      60% 60% at 40% 60%,
+      transparent 0% 10%,
+      var(--orange) 10% 12%,
+      transparent 12%
+    ),
+    radial-gradient(
+      60% 60% at 40% 50%,
+      transparent 0% 10%,
+      var(--blue) 10% 12%,
+      transparent 12%
+    ),
+    radial-gradient(
+      60% 60% at 60% 50%,
+      transparent 0% 10%,
+      var(--blue) 10% 12%,
+      transparent 12%
+    ),
+    radial-gradient(
+      60% 60% at 50% 40%,
+      transparent 0% 10%,
+      var(--blue) 10% 12%,
+      transparent 12%
+    ),
+    radial-gradient(
+      60% 60% at 50% 60%,
+      transparent 0% 10%,
+      var(--blue) 10% 12%,
+      transparent 12%
+    ),
+    radial-gradient(
+      60% 60% at 45% 45%,
+      transparent 0% 10%,
+      var(--green) 10% 12%,
+      transparent 12%
+    ),
+    radial-gradient(
+      60% 60% at 45% 55%,
+      transparent 0% 10%,
+      var(--green) 10% 12%,
+      transparent 12%
+    ),
+    radial-gradient(
+      60% 60% at 55% 45%,
+      transparent 0% 10%,
+      var(--green) 10% 12%,
+      transparent 12%
+    ),
+    radial-gradient(
+      60% 60% at 55% 55%,
+      transparent 0% 10%,
+      var(--green) 10% 12%,
+      transparent 12%
+    );
+  background-size: 120px 120px;
+}
