@@ -277,8 +277,12 @@ h4 {
   padding: 0px;
 }
 
-#footer h4 {
+#footer .title {
   color: var(--orange);
+}
+
+#footer .subtitle {
+  color: var(--black);
 }
 
 #footer a {
