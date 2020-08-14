@@ -216,7 +216,6 @@ header nav li a {
   color: var(--blue);
   padding: var(--spacing);
   text-decoration: none;
-  width: fit-content;
   border: 1px solid var(--blue);
   transition: all 0.2s ease-in-out;
 }
