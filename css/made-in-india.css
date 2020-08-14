@@ -347,3 +347,52 @@
     radial-gradient(circle, var(--green) 0% 35%, transparent 35%);
   background-size: 20px 60px;
 }
+
+.india-net {
+  background: repeating-linear-gradient(
+      90deg,
+      transparent 0px 27px,
+      var(--blue-alpha-50) 27px 29px,
+      transparent 29px 65px,
+      var(--blue-alpha-50) 65px 67px,
+      transparent 67px 76px
+    ),
+    repeating-linear-gradient(
+      180deg,
+      transparent 0px 9px,
+      var(--blue-alpha-50) 9px 11px,
+      transparent 11px 49px,
+      var(--blue-alpha-50) 49px 51px,
+      transparent 51px 80px
+    ),
+    repeating-linear-gradient(
+      180deg,
+      transparent 0px 20px,
+      var(--orange-alpha-50) 20px 40px,
+      transparent 40px 60px,
+      var(--green-alpha-50) 60px 80px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      var(--orange) 0px 2px,
+      transparent 2px 4px,
+      var(--orange) 4px 6px,
+      transparent 6px 8px,
+      var(--orange) 8px 10px,
+      transparent 10px 12px,
+      var(--orange) 12px 14px,
+      transparent 14px 16px,
+      var(--orange) 16px 18px,
+      transparent 18px 38px,
+      var(--green) 38px 40px,
+      transparent 40px 42px,
+      var(--green) 42px 44px,
+      transparent 44px 46px,
+      var(--green) 46px 48px,
+      transparent 48px 50px,
+      var(--green) 50px 52px,
+      transparent 52px 54px,
+      var(--green) 54px 56px,
+      transparent 56px 76px
+    );
+}
