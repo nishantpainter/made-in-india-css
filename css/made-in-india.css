@@ -340,3 +340,10 @@
     );
   background-size: 60px 60px;
 }
+
+.india-dot {
+  background: radial-gradient(circle, var(--orange) 0% 35%, transparent 35%) 0px
+      30px,
+    radial-gradient(circle, var(--green) 0% 35%, transparent 35%);
+  background-size: 20px 60px;
+}
